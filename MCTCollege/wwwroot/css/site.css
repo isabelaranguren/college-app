@@ -1,10 +1,25 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+
+
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+}
+
+div.jumbotron {
+    color: white;
+    background-image: url("~/images/students.jpg") !important;
+}
+
+nav {
+    background-color: brown !important;
 }
 
 /* Provide sufficient contrast against white background */
@@ -60,7 +75,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .footer {
   position: absolute;
