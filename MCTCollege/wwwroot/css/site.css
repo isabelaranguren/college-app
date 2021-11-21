@@ -14,8 +14,11 @@ a.navbar-brand {
 }
 
 div.jumbotron {
+    background-position-y: bottom;
+    background-attachment: fixed;
+    min-height: 300px;
     color: white;
-    background-image: url("~/images/students.jpg") !important;
+    background-image: url("../images/students.jpg") !important;
 }
 
 nav {
